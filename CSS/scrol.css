@@ -1,0 +1,62 @@
+.scrol {
+    display: flex;
+    align-items: center;
+    border: 0 solid;
+    width: auto;
+    height: 45vw;
+}
+
+.scrol__lider {
+    border: 0 solid;
+    width: 78vw;
+    height: 40vw;
+    overflow: hidden;
+
+}
+
+.scrol__left,
+.scrol__right {
+    position: absolute;
+    width: 3vw;
+    margin-left: 5vw;
+    margin-top: -20%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 0.5vw;
+}
+
+.scrol__leng {
+    display: flex;
+    transition: 0.7s;
+}
+
+.scrol__img {
+    width: 78vw;
+    height: 40vw;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.scrol__right {
+    margin-left: 70vw;
+}
+
+.scrol__texst {
+    text-align: center;
+    font-size: 4vw;
+}
+
+.scrol__min {
+    border: 0 solid;
+    display: flex;
+    width: auto;
+}
+
+@media (max-width: 950px) {
+
+    .scrol__left,
+    .scrol__right {
+        width: 3.5vw;
+    }
+}

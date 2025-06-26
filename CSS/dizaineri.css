@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  .designers {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .designers h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
+  .designer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .designer-card {
+    background-color: rgb(152, 207, 190);
+    border-radius: 5px;
+    padding: 20px;
+    width: 280px;
+    transition: 0.3s;
+  }
+
+  .designer-card:hover {
+    transform: translateY(-5px); 
+    transition: 0.3s;
+  }
+
+  .designer-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+  .designer-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #222;
+  }
+
+  .designer-card p {
+    font-size: 0.95em;
+    color: #555;
+  }
