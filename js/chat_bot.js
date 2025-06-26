@@ -32,8 +32,8 @@ function clic() {
         else if (message.includes('что ?')) {
             bot.textContent = 'да';
         }
-        else if (message.includes('кто величайший ?')) {
-            bot.textContent = 'это вы';
+        else if (message.includes('кто такая аселя ?')) {
+            bot.textContent = 'это не существа  а дегенерат';
         }
 
         else if (message.includes('соедените с оператором' && 'оператор')) {

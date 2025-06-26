@@ -42,6 +42,7 @@ p {
     display: flex;
     gap: 40px;
     padding-top: 10px;
+    margin-left: 100px;
 }
 
 .header__nav--right ul {
@@ -53,7 +54,7 @@ p {
 }
 
 .header__logo {
-    margin-left: 180px;
+    margin-left: 280px;
     font-size: 30px;
     color: rgb(48, 174, 132);
 }
@@ -76,6 +77,16 @@ p {
     background-color: rgb(79, 79, 79);
     border: 1px;
     font-size: 0.7vw;
+}
+
+.profil {
+    border: 0 solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #f9fafb;
+    
+    
 }
 
 /* Hero section */
@@ -445,12 +456,12 @@ ul {
 
     .header__nav--right ul {
         gap: 1vw;
-        margin-left: 1vw;
+        margin-left: 01vw;
         padding-top: 1vw;
     }
 
     .header__logo {
-        margin-left: 6vw;
+        margin-left: 2vw;
         font-size: 4vw;
         color: rgb(48, 174, 132);
     }
